@@ -35,10 +35,6 @@ const experience = [
 
 const portfolioItems = [
   {
-    src: '/images/IMG_1098.jpg',
-    title: 'Fotografie',
-  },
-  {
     src: '/images/Rusalka_Plakat.jpg',
     title: 'Rusalka Plakat',
   },
@@ -51,8 +47,16 @@ const portfolioItems = [
     title: 'Readers Digest Cover',
   },
   {
+    src: '/images/Geschaeftsdrucksachen Mockup.jpg',
+    title: 'Geschäftsdrucksachen Mockup',
+  },
+  {
     src: '/images/gera25 1.png',
     title: 'Gera 25',
+  },
+  {
+    src: '/images/Zeichnung-_Bewerbung.png',
+    title: 'Poesie der Linie',
   },
   {
     src: '/images/0218 (1) 1.mp4',
@@ -62,14 +66,7 @@ const portfolioItems = [
     src: '/images/AAD864D3-A7FD-4E1E-AFA7-FD01F4CF0D5C.mp4',
     title: 'Videoarbeit 02',
   },
-  {
-    src: '/images/Geschaeftsdrucksachen Mockup.jpg',
-    title: 'Geschäftsdrucksachen Mockup',
-  },
-  {
-    src: '/images/Zeichnung-_Bewerbung.png',
-    title: 'Poesie der Linie',
-  },
+
 ]
 
 const extension = (file) => file.split('.').pop()?.toLowerCase() ?? ''
@@ -107,7 +104,7 @@ function App() {
 
   return (
     <div className="relative isolate overflow-x-hidden bg-porcelain text-stone-800">
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[38rem] bg-[#ff6500]/80" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[38rem] bg-[#ff6500]/90" />
 
       <header className="sticky top-0 z-30 border-b border-stone-200/70 bg-porcelain/90 backdrop-blur">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
@@ -184,7 +181,7 @@ function App() {
           </div>
         </section>
 
-        <section id="portfolio" className="bg-[#ff6500]/22 py-20">
+        <section id="portfolio" className="bg-[#ff6500]/90 py-20">
           <div className="mx-auto w-full max-w-6xl px-5 sm:px-8">
             <h2 className="max-w-3xl font-display text-3xl leading-tight text-stone-900 sm:text-4xl">
               Aus dem Chaos entstand das Universum - von Visionen zum Endprodukt
@@ -194,7 +191,7 @@ function App() {
                 <button
                   key={item.src}
                   onClick={() => openItem(item)}
-                  className="group relative aspect-square cursor-pointer overflow-hidden rounded-full border-4 border-white text-left shadow-lg transition hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-white/80"
+                  className="group relative aspect-square cursor-pointer overflow-hidden rounded-full border-4 border-[#ffd45a] text-left shadow-lg transition hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#ffe08f]"
                   aria-label={`${item.title} vergrößern`}
                 >
                   {isVideo(item.src) ? (
