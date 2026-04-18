@@ -51,12 +51,22 @@ const portfolioItems = [
     title: 'Geschäftsdrucksachen Mockup',
   },
   {
-    src: '/images/gera25 1.png',
-    title: 'Gera 25',
+    src: '/images/IMG_7375.jpg',
+    title: '7375',
   },
   {
     src: '/images/Zeichnung-_Bewerbung.png',
     title: 'Poesie der Linie',
+
+    },
+  {
+      src: '/images/strand.jpg',
+      title: 'strand',
+    
+  },
+  {
+    src: '/images/Hyndai.jpg',
+    title: 'Hyndai',
   },
   {
     src: '/images/0218 (1) 1.mp4',
@@ -65,6 +75,14 @@ const portfolioItems = [
   {
     src: '/images/AAD864D3-A7FD-4E1E-AFA7-FD01F4CF0D5C.mp4',
     title: 'Videoarbeit 02',
+  },
+  {
+    src: '/images/Sebastian:Cover',
+    title: 'S_C',
+    {
+      src: '/images/Sora3.jpg',
+      title: 'Sora3',
+    },
   },
 
 ]
