@@ -77,14 +77,14 @@ const portfolioItems = [
     title: 'Videoarbeit 02',
   },
   {
-    src: '/images/Sebastian:Cover',
+    src: '/images/Sebastian_Cover.jpg',
     title: 'S_C',
-    {
-      src: '/images/Sora3.jpg',
-      title: 'Sora3',
-    },
-  },
 
+  },
+  {
+    src: '/images/Sora3.jpg',
+    title: 'Sora3',
+  },
 ]
 
 const extension = (file) => file.split('.').pop()?.toLowerCase() ?? ''
