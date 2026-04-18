@@ -60,7 +60,7 @@ const portfolioItems = [
 
     },
   {
-      src: '/images/strand.jpg',
+      src: '/images/strand.png',
       title: 'strand',
     
   },
