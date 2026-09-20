@@ -244,30 +244,30 @@ function App() {
         </section>
 
         <section id="newsletters" className="mx-auto w-full max-w-6xl px-5 pb-4 pt-20 sm:px-8">
-          <div className="flex flex-col gap-6 rounded-3xl bg-stone-900 p-7 text-white shadow-xl shadow-stone-300/30 sm:flex-row sm:items-end sm:justify-between sm:p-10">
+          <div className="flex flex-col gap-6 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm sm:flex-row sm:items-end sm:justify-between sm:p-7">
             <div className="max-w-2xl">
-              <p className="text-xs uppercase tracking-[0.2em] text-[#ffd45a]">Editorial &amp; Kampagnen</p>
-              <h2 className="mt-3 font-display text-3xl sm:text-4xl">Newsletter zum Muttertag</h2>
-              <p className="mt-3 max-w-xl leading-7 text-stone-300">
-                Eine emotionale Produktkampagne für Readers Digest mit Gestaltung, Bildsprache und animierten Details.
+              <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Editorial</p>
+              <h2 className="mt-3 font-display text-3xl text-stone-900 sm:text-4xl">Newsletter zum Muttertag</h2>
+              <p className="mt-3 max-w-xl leading-7 text-stone-700">
+                Gestaltung einer Muttertags-Kampagne für Readers Digest.
               </p>
             </div>
             <a
               href="/newsletters/newsletter_Muttertag.html"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex shrink-0 items-center justify-center rounded-full bg-[#ffd45a] px-6 py-3 text-sm font-semibold text-stone-900 transition hover:bg-[#ffe08f]"
+              className="inline-flex shrink-0 items-center justify-center rounded-full bg-[#ff6500] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#e95b00]"
             >
               Newsletter öffnen <span aria-hidden="true" className="ml-2 text-base">↗</span>
             </a>
           </div>
         </section>
 
-        <section id="contact" className="mx-auto w-full max-w-6xl px-5 pb-24 pt-20 sm:px-8">
-          <div className="grid gap-4 md:grid-cols-2">
+        <section id="contact" className="bg-[#ff6500]/90 py-20">
+          <div className="mx-auto grid w-full max-w-6xl gap-4 px-5 sm:px-8 md:grid-cols-2">
             <div className="rounded-2xl border border-stone-200 bg-white p-7">
               <p className="text-xs uppercase tracking-[0.2em] text-stone-500">Standort</p>
-              <p className="mt-3 font-display text-3xl">Stuttgart</p>
+              <p className="mt-3 font-display text-3xl text-stone-900">Stuttgart</p>
             </div>
             <div className="rounded-2xl border border-stone-200 bg-white p-7">
               <p className="text-xs uppercase tracking-[0.2em] text-stone-500">E-Mail</p>
