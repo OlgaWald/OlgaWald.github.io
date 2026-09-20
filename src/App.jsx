@@ -58,11 +58,11 @@ const portfolioItems = [
     src: '/images/Zeichnung-_Bewerbung.png',
     title: 'Poesie der Linie',
 
-    },
+  },
   {
-      src: '/images/strand.png',
-      title: 'strand',
-    
+    src: '/images/strand.png',
+    title: 'strand',
+
   },
   {
     src: '/images/Hyndai.jpg',
@@ -133,6 +133,7 @@ function App() {
             <a href="#about" className="hover:text-stone-950">About</a>
             <a href="#experience" className="hover:text-stone-950">Erfahrung</a>
             <a href="#portfolio" className="hover:text-stone-950">Portfolio</a>
+            <a href="#newsletters" className="hover:text-stone-950">Newsletter</a>
             <a href="#contact" className="hover:text-stone-950">Kontakt</a>
           </nav>
         </div>
@@ -239,6 +240,26 @@ function App() {
                 </button>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section id="newsletters" className="mx-auto w-full max-w-6xl px-5 pb-4 pt-20 sm:px-8">
+          <div className="flex flex-col gap-6 rounded-3xl bg-stone-900 p-7 text-white shadow-xl shadow-stone-300/30 sm:flex-row sm:items-end sm:justify-between sm:p-10">
+            <div className="max-w-2xl">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#ffd45a]">Editorial &amp; Kampagnen</p>
+              <h2 className="mt-3 font-display text-3xl sm:text-4xl">Newsletter zum Muttertag</h2>
+              <p className="mt-3 max-w-xl leading-7 text-stone-300">
+                Eine emotionale Produktkampagne für Readers Digest mit Gestaltung, Bildsprache und animierten Details.
+              </p>
+            </div>
+            <a
+              href="/newsletters/newsletter_Muttertag.html"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex shrink-0 items-center justify-center rounded-full bg-[#ffd45a] px-6 py-3 text-sm font-semibold text-stone-900 transition hover:bg-[#ffe08f]"
+            >
+              Newsletter öffnen <span aria-hidden="true" className="ml-2 text-base">↗</span>
+            </a>
           </div>
         </section>
 
